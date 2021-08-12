@@ -1,0 +1,52 @@
+.table-container {
+    display: flex;
+}
+
+.card-container {
+    width: 700px;
+}
+
+.repo-container {
+    width: 800px;
+}
+
+.repo-scroll {
+    height: 450px;
+    overflow-y: scroll;
+}
+
+.repo-title {
+    color: #ffffff;
+}
+
+.repo-search {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.search-input {
+    background: none !important;
+    border: 1px solid white;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+    width: 300px;
+    height: 30px;
+    padding: 5px;
+}
+
+.search-select {
+    background: none !important;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: #fff;
+    outline: none;
+    width: 300px;
+    height: 30px;
+    padding: 1px;
+}
+
+.search-option {
+    color: #000;
+}
